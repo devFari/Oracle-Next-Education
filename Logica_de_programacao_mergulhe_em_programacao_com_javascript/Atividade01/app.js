@@ -7,7 +7,7 @@ let mensagemDeErro = "Erro! Preencha todos os campos";
 
 alert ("Erro! Preencha todos os campos")*/
 
-let nome = prompt("inform seu nome");
+let nome = prompt("informe seu nome");
 let idade = parseInt (prompt ("informe sua idade"));
 
 if (idade >= 18) {
