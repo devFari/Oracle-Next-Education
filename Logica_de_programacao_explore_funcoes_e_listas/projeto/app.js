@@ -1,5 +1,5 @@
-let numeroSecreto = gerarNumeroAleatorio();
-// let numeroSecreto = 5;
+// let numeroSecreto = gerarNumeroAleatorio();
+let numeroSecreto = 5;
 let tentativas = 1;
 
 // modificando a tag H1 do HTML utilizando JavaScript
@@ -27,6 +27,7 @@ function exibirMensagemInicial(){
 exibirMensagemInicial();
 
 //função com retorno
+// Função para gerar um numero aleatorio
 function gerarNumeroAleatorio() {
     return parseInt(Math.random() * 10 + 1);
 };
@@ -43,24 +44,23 @@ function reiniciar(){
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
+    // Ativa o botão de 'reiniciar jogo'
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
 
 // função para reiniciar o jogo
 function reiniciarJogo(){
+    // Abilita o elemento
     document.getElementById('chute').removeAttribute('disabled');
+    // Adiciona o atributo 'disabled'
     document.getElementById('reiniciar').setAttribute('disabled', true);
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
-
 }
 
-
-
-
-//criando uma função para o botão
+//criando uma função para fazer o jogo rodar
 function verificarChute(){
     let chute = document.querySelector('input').value;
     
@@ -71,10 +71,10 @@ function verificarChute(){
         exibirTextoNaTela('h1', 'Você acertou!');
         exibirTextoNaTela('p', mensagemTentativa);
 
+        // desativa esse botão
         document.getElementById('chute').setAttribute('disabled', true);
+        // abilita o elementoo
         document.getElementById('reiniciar').removeAttribute('disabled');
-
-        
 
     } else{
         if (chute > numeroSecreto){
@@ -86,11 +86,13 @@ function verificarChute(){
         };
     };
 
+    // soma 1 ao numero de tentativas
     tentativas ++;
     limparCampo();
 
 };
 
+// forama um laço de repetição para o jogo nunca acabar
 while (chute === numeroSecreto){
     verificarChute()
 };
