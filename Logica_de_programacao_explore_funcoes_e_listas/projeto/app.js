@@ -1,6 +1,9 @@
-// let numeroSecreto = gerarNumeroAleatorio();
-let numeroSecreto = 5;
+let listaDeNumerosSorteados = [];
+let numeroLimite = 10;
+let numeroSecreto = gerarNumeroAleatorio();
+// let numeroSecreto = 5;
 let tentativas = 1;
+
 
 // modificando a tag H1 do HTML utilizando JavaScript
 /* let titulo = document.querySelector('h1');
@@ -29,7 +32,22 @@ exibirMensagemInicial();
 //função com retorno
 // Função para gerar um numero aleatorio
 function gerarNumeroAleatorio() {
-    return parseInt(Math.random() * 10 + 1);
+    let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
+    let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
+
+    if(quantidadeDeElementosNaLista == numeroLimite){
+        listaDeNumerosSorteados = [];
+    }
+
+    // vai gerar um novo numero caso o numero sorteado já tenha sido escolhido
+    if(listaDeNumerosSorteados.includes()){
+        return gerarNumeroAleatorio();
+    } else{
+        // adiciona a lista numeroEscolhido o numero que foi sorteado
+        listaDeNumerosSorteados.push(numeroEscolhido);
+        console.log(listaDeNumerosSorteados);
+        return numeroEscolhido;
+    };
 };
 
 // Função para limpar os campo de preenchimento
