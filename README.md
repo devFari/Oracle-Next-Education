@@ -26,7 +26,7 @@ Este repositório faz parte do meu aprendizado no programa **Oracle Next Educati
   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 🌍 Conecte-se comigo  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)]([https://www.linkedin.com/in/seu-perfil](https://www.linkedin.com/in/matheus-henrique-gpti/))  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/matheus-henrique-gpti/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)]([https://github.com/devFari/Oracle-Next-Education](https://github.com/devFari))  
 
 🚀 _Vamos juntos nessa jornada!_  
