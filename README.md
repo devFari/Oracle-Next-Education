@@ -29,4 +29,4 @@ This repository is part of my learning journey in the **Oracle Next Education** 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/matheus-henrique-gpti/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)]([https://github.com/devFari/Oracle-Next-Education](https://github.com/devFari))  
 
-🚀 _Vamos juntos nessa jornada!_  
+🚀 *Let's go together on this journey!* 
