@@ -1,15 +1,15 @@
 # 🚀 Oracle Next Education
 
-### 👋 Olá, sou Matheus H N Farias  
+### 👋 Hi, I'm Matheus H N Farias  
 
-💼 **Profissão:** Assistente de TI  
-📊 **Nível de experiência:** Junior  
-🎯 **Expectativas:** Tenho espectativas de seguir no programa pela carreira de Data Science
+💼 **Profession:** IT Assistant  
+📊 **Experience Level:** Junior  
+🎯 **Expectations:** I have expectations to follow the program for a career in Data Science.
 
-## 📌 Sobre este repositório  
-Este repositório faz parte do meu aprendizado no programa **Oracle Next Education**, onde desenvolvo projetos e aprimoro minhas habilidades. Aqui você encontrará códigos, desafios e anotações sobre minha jornada.  
+## 📌 About this repository  
+This repository is part of my learning journey in the **Oracle Next Education** program, where I develop projects and improve my skills. Here you will find codes, challenges, and notes about my journey.
 
-## 🛠️ Tecnologias utilizadas  
+## 🛠️ Technologies Used  
 - **Artificial Intelligence**
   
   ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
@@ -25,7 +25,7 @@ Este repositório faz parte do meu aprendizado no programa **Oracle Next Educati
   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## 🌍 Conecte-se comigo  
+## 🌍 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/matheus-henrique-gpti/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)]([https://github.com/devFari/Oracle-Next-Education](https://github.com/devFari))  
 
