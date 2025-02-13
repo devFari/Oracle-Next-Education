@@ -16,6 +16,11 @@ h2{
     font-family: "Times New Roman", Times, serif;
 }
 
+h3{
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+}
+
 p{
     font-family: "Courier New", Courier, monospace;
 }
@@ -134,17 +139,35 @@ img {
     gap: 20px; /* Espaço entre imagem e texto */
 }
 
-.texto-certificado {
+
+
+.texto-certificado-esquerda {
     flex: 1; /* Faz o texto ocupar o espaço restante */
     text-align: justify;
 }
 
-.imagem-certificado img {
+.imagem-certificado-direita img {
     max-width: 300px; /* Define um tamanho máximo para a imagem */
     height: auto;
     margin: 10px; /* Espaçamento ao redor da imagem */
     border-radius: 5px; /* Bordas arredondadas */
 }
+
+
+
+.texto-certificado-direita {
+    flex: 1; /* Faz o texto ocupar o espaço restante */
+    text-align: justify;
+}
+
+.imagem-certificado-esquerda img {
+    max-width: 300px; /* Define um tamanho máximo para a imagem */
+    height: auto;
+    margin: 10px; /* Espaçamento ao redor da imagem */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+
 
 /* Responsividade para telas menores */
 @media screen and (max-width: 768px) {
