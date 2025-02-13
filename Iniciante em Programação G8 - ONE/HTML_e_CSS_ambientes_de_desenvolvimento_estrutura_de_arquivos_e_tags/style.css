@@ -1,9 +1,10 @@
-body {
+html, body {
     background-color: black;
     color: white;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    height: auto; /* Permite que a página cresça conforme o conteúdo */
 }
 
 h1{
@@ -25,7 +26,7 @@ strong {
 
 #cabecalho {
     text-align: center; /* Centraliza o texto */
-    margin-bottom: 70px; /* Adiciona espaçamento abaixo da div */
+    margin-bottom: 30px; /* Adiciona espaçamento abaixo da div */
 }
 
 #conteudo {
@@ -98,14 +99,61 @@ img {
 }
 
 #rodape {
-    position: fixed; /* Torna a div fixa na tela */
     bottom: 0; /* Alinha a div ao fundo da página */
     left: 0; /* Alinha a div à esquerda da página (pode mudar para right: 0 caso queira à direita) */
     width: 100%; /* Para garantir que a div ocupe toda a largura da página */
     padding: 10px;
     text-align: center; /* Centraliza o texto */
-    background-color: rgba(14, 13, 13, 0.986); /* Exemplo de fundo semi-transparente */
+    background-color: rgba(0, 0, 3, 0.425); /* Exemplo de fundo semi-transparente */
     color: white; /* Cor do texto */
     font-size: 20px; /* Tamanho da fonte do texto */
     font-weight: bold; /* Torna o texto em negrito */
+}
+
+.fase {
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 900px; /* Define um limite máximo para melhor visualização */
+    margin: 20px auto; /* Centraliza o bloco na página */
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 5px 5px 20px rgb(1, 1, 114);
+    background-color: rgba(5, 0, 34, 0.1);
+}
+
+.fase h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: white;
+}
+
+.conteudo-certificado {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaço entre imagem e texto */
+}
+
+.texto-certificado {
+    flex: 1; /* Faz o texto ocupar o espaço restante */
+    text-align: justify;
+}
+
+.imagem-certificado img {
+    max-width: 300px; /* Define um tamanho máximo para a imagem */
+    height: auto;
+    margin: 10px; /* Espaçamento ao redor da imagem */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Responsividade para telas menores */
+@media screen and (max-width: 768px) {
+    .conteudo-certificado {
+        flex-direction: column; /* Empilha a imagem abaixo do texto */
+        text-align: center;
+    }
+
+    .imagem-certificado img {
+        max-width: 80%; /* Ajusta o tamanho da imagem em telas pequenas */
+    }
 }
