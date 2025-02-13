@@ -1,36 +1,13 @@
-body{
+body {
     background-color: black;
     color: white;
-}
-
-#divcorpo{
-    width: 1100px;
-    height: 600px;
-    border: 1px solid  white;
-    box-shadow: 5px 5px 100px rgb(53, 0, 53);
-}
-
-#titulo{
-    text-align: center;
-
-}
-
-#texto{
-    align-items: right;
-
-}
-
-#imagem{
-    align-items: left;
-}
-
-img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 h1{
+    text-align: center;
     font-family: Georgia, serif;
 }
 
@@ -40,4 +17,95 @@ h2{
 
 p{
     font-family: "Courier New", Courier, monospace;
+}
+
+strong {
+    color: blue;
+}
+
+#cabecalho {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 70px; /* Adiciona espaçamento abaixo da div */
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos na div */
+    align-items: center; /* Alinha verticalmente */
+    gap: 20px; /* Espaço entre as divs */
+    width: 100%; /* Garante que ocupa toda a largura de #divcorpo */
+}
+
+#imagem {
+    width: 30%; /* Ocupa 30% da largura de #divcorpo */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem dentro da div */
+}
+
+#texto {
+    width: 60%; /* Ocupa 60% da largura de #divcorpo */
+    text-align: justify;
+}
+
+#divcorpo {
+    width: 80%; /* Deixa mais responsivo */
+    max-width: 1100px;
+    margin: 20px auto; /* Centraliza */
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 100px rgb(1, 1, 114);
+    text-align: center;
+    border-radius: 10px; /* Cantos arredondados */
+}
+
+#acompanhamento{
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajuste automático */
+    gap: 20px;
+    place-items: center;
+}
+
+.box {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: lightcoral;
+    border: 2px solid red; */
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%; /* Deixa a imagem redonda */
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold; /* Torna o texto em negrito */
+}
+
+#rodape {
+    position: fixed; /* Torna a div fixa na tela */
+    bottom: 0; /* Alinha a div ao fundo da página */
+    left: 0; /* Alinha a div à esquerda da página (pode mudar para right: 0 caso queira à direita) */
+    width: 100%; /* Para garantir que a div ocupe toda a largura da página */
+    padding: 10px;
+    text-align: center; /* Centraliza o texto */
+    background-color: rgba(14, 13, 13, 0.986); /* Exemplo de fundo semi-transparente */
+    color: white; /* Cor do texto */
+    font-size: 20px; /* Tamanho da fonte do texto */
+    font-weight: bold; /* Torna o texto em negrito */
 }
