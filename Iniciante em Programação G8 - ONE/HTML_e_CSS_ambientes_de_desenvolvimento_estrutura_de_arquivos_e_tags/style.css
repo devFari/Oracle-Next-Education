@@ -5,6 +5,7 @@ html, body {
     padding: 0;
     font-family: Arial, sans-serif;
     height: auto; /* Permite que a página cresça conforme o conteúdo */
+    
 }
 
 h1{
@@ -78,6 +79,7 @@ strong {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajuste automático */
     gap: 20px;
     place-items: center;
+    justify-content: center; /* Centraliza os elementos na div */
 }
 
 .box {
@@ -128,6 +130,7 @@ img {
     border-radius: 10px; /* Bordas arredondadas */
     box-shadow: 5px 5px 20px rgb(1, 1, 114);
     background-color: rgba(5, 0, 34, 0.1);
+    /* display: flex; */
 }
 
 .fase h2 {
@@ -146,8 +149,6 @@ img {
     gap: 20px; /* Espaço entre imagem e texto */
 }
 
-
-
 .texto-certificado-esquerda {
     flex: 1; /* Faz o texto ocupar o espaço restante */
     text-align: justify;
@@ -159,8 +160,6 @@ img {
     margin: 10px; /* Espaçamento ao redor da imagem */
     border-radius: 5px; /* Bordas arredondadas */
 }
-
-
 
 .texto-certificado-direita {
     flex: 1; /* Faz o texto ocupar o espaço restante */
@@ -195,3 +194,25 @@ img {
     cursor: pointer; /* Transforma o cursor em uma mãozinha */
     text-decoration: underline; /* Sublinha o texto */
 }
+
+
+  
+
+.botaoRedirecionar {
+    background-color: rgb(4, 0, 15);
+    width: 300px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 100px rgb(1, 1, 114);
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.botaoRedirecionar:hover {
+    background-color: blue; /* Azul mais escuro ao passar o mouse */
+}
+

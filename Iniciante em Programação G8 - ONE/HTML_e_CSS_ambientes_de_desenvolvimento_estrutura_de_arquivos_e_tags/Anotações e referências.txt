@@ -18,6 +18,8 @@ https://www.w3schools.com/tags/ref_colornames.asp
 
 </div>
 
+
+
 <!-- Essa div posso reaproveitar a estrutura para cada curso -->
 <!-- certificado a direita  -->
 <div class="conteudo-certificado"> 
@@ -35,15 +37,18 @@ https://www.w3schools.com/tags/ref_colornames.asp
 
 
 <!-- Essa div posso reaproveitar a estrutura para cada curso -->
-                    <!-- certificado a esquerda -->
-                    <div class="conteudo-certificado"> 
+<!-- certificado a esquerda -->
+<div class="conteudo-certificado"> 
 
-                        <div class="texto-certificado-esquerda">
-                            <p>Aprendi a exibir mensagens interativas na tela, trabalhar com variáveis e seguir boas práticas de programação. Além disso, desenvolvi uma aplicação completa baseada em cenários reais e aprimorei minha habilidade de adaptar soluções existentes para diferentes necessidades. O programa oferece uma base sólida para quem deseja ingressar no mundo do desenvolvimento de software.</p>
-                        </div>
+    <div class="texto-certificado-esquerda">
+        <p>Aprendi a exibir mensagens interativas na tela, trabalhar com variáveis e seguir boas práticas de programação. Além disso, desenvolvi uma aplicação completa baseada em cenários reais e aprimorei minha habilidade de adaptar soluções existentes para diferentes necessidades. O programa oferece uma base sólida para quem deseja ingressar no mundo do desenvolvimento de software.</p>
+    </div>
 
-                        <div class="imagem-certificado-direita">
-                            <img src="imagens/lógica_de_programacao_ mergulhe_em_programacao_com_javascript.jpg" alt="Certificado" />
-                        </div>
+    <div class="imagem-certificado-direita">
+        <img src="imagens/lógica_de_programacao_ mergulhe_em_programacao_com_javascript.jpg" alt="Certificado" />
+    </div>
 
-                    </div>
+</div>
+
+botão de redirecionamento de pagina
+<input type="button" class="botaoRedirecionar" data-url="pagina1.html" value="Ir para Página 1">
