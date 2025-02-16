@@ -3,6 +3,7 @@ Scr Figma:
 
 HTML Color Names:
 https://www.w3schools.com/tags/ref_colornames.asp
+https://coolors.co/
 
 <!-- Essa div posso reaproveitar a estrutura para cada curso -->
 <!-- certificado a esquerda -->
