@@ -6,12 +6,7 @@
 
 ### Python para Data Science: primeiros passos
 
-[colab](https://colab.research.google.com/)
-
-
-
-
-
+[colab]([https://colab.research.google.com/](https://colab.research.google.com/drive/1La5-sUJ4FmFEySrmY6mnZu0jREANtQ81?authuser=1))
 
 ## 🛠️ Technologies Used  
 - **Artificial Intelligence**
